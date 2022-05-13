@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Center, Footer, Tag, Showcase, DisplaySmall, DisplayMedium } from '../components'
 import { titleIfy, slugify } from '../utils/helpers'
 import { fetchInventory } from '../utils/inventoryProvider'
-import CartLink from '../components/CartLink'
 
 const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
   const inventory = inventoryData.slice(0, 4)
@@ -10,7 +9,6 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
 
   return (
     <>
-      <CartLink />
       <div className="w-full">
         <Head>
           <title>OKOK Shop</title>

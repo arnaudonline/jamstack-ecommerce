@@ -5,7 +5,6 @@ import Image from '../../components/Image'
 import QuantityPicker from '../../components/QuantityPicker'
 import { fetchInventory } from '../../utils/inventoryProvider'
 import { slugify } from '../../utils/helpers'
-import CartLink from '../../components/CartLink'
 import { SiteContext, ContextProviderComponent } from '../../context/mainContext'
 
 const ItemView = (props) => {
@@ -30,7 +29,6 @@ const ItemView = (props) => {
 
   return (
     <>
-      <CartLink />
       <Head>
         <title>Jamstack ECommerce - {name}</title>
         <meta name="description" content={description} />

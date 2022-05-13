@@ -34,7 +34,6 @@ const Cart = ({ context }) => {
 
   return (
     <>
-      <CartLink />
       <div className="flex flex-col items-center pb-10">
         <Head>
           <title>Jamstack ECommerce - Cart</title>
