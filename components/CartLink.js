@@ -16,15 +16,20 @@ function CartLink(props) {
       <div className="fixed
       sm:top-53 right-24 desktop:right-flexiblemargin
       top-40 z-10">
-        <div className="flex flex-1 justify-end pr-4 relative">
+        <div className="flex flex-1 justify-end items-center pr-4 relative">
           <Link href="/cart">
             <a aria-label="Cart">
-              <FaShoppingCart />
+              <FaShoppingCart />  
             </a>
+            {/* padding: 1px 0px 1px;
+border-radius: 50%;
+width: 22px;
+height: 22px;
+text-align: center; */}
           </Link>
           {
             renderClientSideComponent && numberOfItemsInCart > Number(0) && (
-              <FaCircle color={primary} size={12} suppressHydrationWarning />
+              <p className="bg-primary ml-1 px-1 h-5 w-5 text-center rounded-full">{numberOfItemsInCart}</p>
             )
           }
         </div>
