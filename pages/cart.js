@@ -82,7 +82,7 @@ const Cart = ({ context }) => {
                             </div>
                             <div className="flex flex-1 justify-end">
                               <p className="m-0 pl-10 text-gray-900 tracking-wider">
-                                {DENOMINATION + item.price}
+                                {item.price + DENOMINATION}
                               </p>
                             </div>
                             <div role="button" onClick={() => removeFromCart(item)} className="
@@ -118,7 +118,7 @@ const Cart = ({ context }) => {
                               </div>
                               <div className="flex flex-1">
                                 <p className="text-lg m-0 pl-6 pt-4 text-gray-900 tracking-wider">
-                                  {DENOMINATION + item.price}
+                                  {item.price + DENOMINATION}
                                 </p>
                               </div>
                             </div>
@@ -138,7 +138,7 @@ const Cart = ({ context }) => {
           }
           <div className="flex flex-1 justify-end py-8">
             <p className="text-sm pr-10">Total</p>
-            <p className="font-semibold tracking-wide">{DENOMINATION + total}</p>
+            <p className="font-semibold tracking-wide">{total + DENOMINATION}</p>
           </div>
           {!cartEmpty && (
             <Link href="/checkout" className="flex flex-1 justify-end">

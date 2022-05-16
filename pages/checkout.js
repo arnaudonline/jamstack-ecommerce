@@ -170,7 +170,7 @@ const Checkout = ({ context }) => {
                       </p>
                       <div className="flex flex-1 justify-end">
                         <p className="m-0 pl-10 text-gray-900 font-semibold">
-                          {DENOMINATION + item.price}
+                          {item.price + DENOMINATION}
                         </p>
                       </div>
                     </div>
@@ -235,7 +235,7 @@ const Checkout = ({ context }) => {
                 <div className="px-4 flex flex-1 justify-between pt-2 md:pt-8 mt-2 sm:mt-0">
                   <p className="text-sm pr-10 text-left">Total Hors Livraison</p>
                   <p className="w-38 flex text-right justify-end">
-                    {DENOMINATION + total}
+                    {total + DENOMINATION}
                   </p>
                 </div>
                 <div className="px-4 flex flex-1 justify-between my-2">
@@ -246,7 +246,7 @@ const Checkout = ({ context }) => {
                 <div className="md:ml-4 px-4 flex flex-1 justify-between bg-gray-200 pr-4 pb-1 pt-2 mt-2">
                   <p className="text-sm pr-10">Total</p>
                   <p className="font-semibold w-38 flex justify-end">
-                    {DENOMINATION + (total + calculateShipping())}
+                    {(total + calculateShipping()) + DENOMINATION}
                   </p>
                 </div>
                 <button
