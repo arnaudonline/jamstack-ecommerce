@@ -46,7 +46,7 @@ const ItemView = (props) => {
         </div>
         <div className="pt-2 px-0 md:px-10 pb-8 w-full md:w-1/2">
           <h1 className="
-           sm:mt-0 mt-2 text-5xl font-light leading-large
+           sm:mt-0 mt-2 text-3xl font-light leading-2
           ">{name}</h1>
           <h2 className="text-2xl tracking-wide sm:py-8 py-6">{price}€</h2>
           <p className="text-gray-600 leading-7">{description}</p>

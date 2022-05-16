@@ -233,7 +233,7 @@ const Checkout = ({ context }) => {
               </div>
               <div className="md:pt-20">
                 <div className="px-4 flex flex-1 justify-between pt-2 md:pt-8 mt-2 sm:mt-0">
-                  <p className="text-sm pr-10 text-left">Total Hors Livraison</p>
+                  <p className="text-sm pr-10 text-left">Total<br />Hors Livraison</p>
                   <p className="w-38 flex text-right justify-end">
                     {total + DENOMINATION}
                   </p>

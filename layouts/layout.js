@@ -14,7 +14,7 @@ export default function Layout({ children, categories }) {
     <div>
       {/* <BurgerMenu /> */}
       {/* HEADER */}
-      <div className="sticky mobile:relative top-0 z-98 flex justify-between items-center bg-white mobile:px-12 p-4 w-auto sm:max-w-none">
+      <div className="sticky mobile:relative top-0 z-99 flex justify-between items-center bg-white mobile:px-12 p-4 w-auto sm:max-w-none">
         <Link href="/">
           <a aria-label="Home">
             <img src="/logo.png" alt="logo" width="125" height="28" className='cursor-pointer' />
@@ -39,7 +39,7 @@ export default function Layout({ children, categories }) {
                     mb-4 text-left text-smaller mr-4
                   "
                   >
-                    Acceuil
+                    Accueil
                   </p>
                 </a>
               </Link>

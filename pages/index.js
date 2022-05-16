@@ -17,7 +17,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
         </Head>
         <div className="bg-blue-300
         p-6 pb-10 smpb-6
-        flex lg:flex-row flex-col">
+        flex lg:flex-row flex-col-reverse mobile:flex-row-reverse">
           <div className="pt-4 pl-2 sm:pt-12 sm:pl-12 flex flex-col">
             <Tag
               year="2022"
