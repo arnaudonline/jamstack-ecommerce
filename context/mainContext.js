@@ -60,7 +60,7 @@ class ContextProviderComponent extends React.Component {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
       cart, numberOfItemsInCart: cart.length, total: calculateTotal(cart)
     }))
-    toast("Successfully added item to cart!", {
+    toast("Article ajouté au panier !", {
       position: toast.POSITION.TOP_LEFT
     })
     this.forceUpdate()

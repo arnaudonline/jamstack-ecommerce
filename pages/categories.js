@@ -9,14 +9,14 @@ function Categories ({ categories = [] }) {
     <>
       <div className="w-full">
         <Head>
-          <title>Jamstack ECommerce - All Categories</title>
-          <meta name="description" content={`Jamstack ECommerce - All categories`} />
-          <meta property="og:title" content="Jamstack ECommerce - All Categories" key="title" />
+          <title>Ok-ok ECommerce - All Categories</title>
+          <meta name="description" content={`Ok-okk ECommerce - All categories`} />
+          <meta property="og:title" content="Ok-ok ECommerce - All Categories" key="title" />
         </Head>
         <div className="
           pt-4 sm:pt-10 pb-8
         ">
-          <h1 className="text-5xl font-light">All categories</h1>
+          <h1 className="text-5xl font-light">Toutes les catégories</h1>
         </div>
         <div className="flex flex-col items-center">
           

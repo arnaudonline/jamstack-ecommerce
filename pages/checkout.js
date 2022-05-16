@@ -121,7 +121,7 @@ const Checkout = ({ context }) => {
   if (orderCompleted) {
     return (
       <div>
-        <h3>Thanks! Your order has been successfully processed.</h3>
+        <h3>Merci! Votre commande a été traitée avec succès.</h3>
       </div>
     )
   }
@@ -129,9 +129,9 @@ const Checkout = ({ context }) => {
   return (
     <div className="flex flex-col items-center pb-10">
       <Head>
-        <title>Jamstack ECommerce - Checkout</title>
+        <title>Ok-OK ECommerce - Checkout</title>
         <meta name="description" content={`Check out`} />
-        <meta property="og:title" content="Jamstack ECommerce - Checkpit" key="title" />
+        <meta property="og:title" content="Ok-ok ECommerce - Checkpit" key="title" />
       </Head>
       <div
         className="
@@ -140,12 +140,12 @@ const Checkout = ({ context }) => {
           "
       >
         <div className="pt-10 pb-8">
-          <h1 className="text-5xl font-light mb-6">Checkout</h1>
+          <h1 className="text-5xl font-light mb-6">Caisse</h1>
           <Link href="/cart">
             <a aria-label="Cart">
               <div className="cursor-pointer flex  items-center">
                 <FaLongArrowAltLeft className="mr-2 text-gray-600" />
-                <p className="text-gray-600 text-sm">Edit Cart</p>
+                <p className="text-gray-600 text-sm">retour</p>
               </div>
             </a>
           </Link>
@@ -187,7 +187,7 @@ const Checkout = ({ context }) => {
                       onChange={onChange}
                       value={input.name}
                       name="name"
-                      placeholder="Cardholder name"
+                      placeholder="Nom du titulaire de la carte"
                     />
                     <CardElement className="mt-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
                     <Input
@@ -200,50 +200,48 @@ const Checkout = ({ context }) => {
                       onChange={onChange}
                       value={input.street}
                       name="street"
-                      placeholder="Street"
+                      placeholder="Rue"
                     />
                     <Input
                       onChange={onChange}
                       value={input.city}
                       name="city"
-                      placeholder="City"
+                      placeholder="Ville"
                     />
-                    <Input
+                    { <Input
                       onChange={onChange}
                       value={input.state}
                       name="state"
-                      placeholder="State"
-                    />
+                      placeholder="Pays"
+                    /> }
                     <Input
                       onChange={onChange}
                       value={input.postal_code}
                       name="postal_code"
-                      placeholder="Postal Code"
+                      placeholder="Code Postal"
                     />
                     <button
                       type="submit"
                       disabled={!stripe}
                       onClick={handleSubmit}
                       className="hidden md:block bg-primary hover:bg-black text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline"
-                      type="button"
-                    >
-                      Confirm order
+                      >
+                      Confirmer l'achat
                     </button>
                   </form>
                 </div>
               </div>
               <div className="md:pt-20">
                 <div className="pl-4 flex flex-1 pt-2 md:pt-8 mt-2 sm:mt-0">
-                  <p className="text-sm pr-10 text-left">Subtotal</p>
+                  <p className="text-sm pr-10 text-left">total partiel</p>
                   <p className="w-38 flex text-right justify-end">
                     {DENOMINATION + total}
                   </p>
                 </div>
                 <div className="pl-4 flex flex-1 my-2">
-                  <p className="text-sm pr-10">Shipping</p>
+                  <p className="text-sm pr-10">livraison</p>
                   <p className="w-38 flex justify-end">
-                    FREE SHIPPING
-                  </p>
+                GRATUITE</p>
                 </div>
                 <div className="md:ml-4 pl-2 flex flex-1 bg-gray-200 pr-4 pb-1 pt-2 mt-2">
                   <p className="text-sm pr-10">Total</p>
@@ -256,9 +254,8 @@ const Checkout = ({ context }) => {
                   disabled={!stripe}
                   onClick={handleSubmit}
                   className="md:hidden bg-primary hover:bg-black text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline"
-                  type="button"
                 >
-                  Confirm order
+                  Confirmer l'achat
                 </button>
               </div>
             </div>
