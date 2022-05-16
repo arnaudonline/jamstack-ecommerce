@@ -36,7 +36,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
           </div>
           <div className="flex flex-1 justify-center items-center relative">
               <Showcase
-                imageSrc={inventory[2].image}
+                imageSrc={inventory[3].image}
               />
               <div className="absolute
               w-48 h-48 sm:w-72 sm:h-72 xl:w-88 xl:h-88
