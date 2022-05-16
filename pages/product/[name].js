@@ -59,7 +59,7 @@ const ItemView = (props) => {
           </div>
           <Button
             full
-            title="Add to Cart"
+            title="Ajouter au panier"
             onClick={() => addItemToCart(product)}
           />
         </div>

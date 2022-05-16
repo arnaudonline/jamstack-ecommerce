@@ -15,7 +15,7 @@ export default function Layout({ children, categories }) {
       <div className="sticky mobile:relative top-0 z-99 flex justify-between items-center bg-white mobile:px-12 p-4 w-auto sm:max-w-none">
         <Link href="/">
           <a aria-label="Home">
-            <img src="/logo.png" alt="logo" width="90" height="28" />
+            <img src="/logo.png" alt="logo" width="90" height="28" className='cursor-pointer' />
           </a>
         </Link>
         <CartLink />
