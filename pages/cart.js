@@ -138,7 +138,7 @@ const Cart = ({ context }) => {
           }
           <div className="flex flex-1 justify-end py-8">
             <p className="text-sm pr-10">Total</p>
-            <p className="font-semibold tracking-wide">{total + DENOMINATION}</p>
+            <p className="font-semibold tracking-wide">{total.toFixed(2) + DENOMINATION}</p>
           </div>
           {!cartEmpty && (
             <Link href="/checkout" className="flex flex-1 justify-end">

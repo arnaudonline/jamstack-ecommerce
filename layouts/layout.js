@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css"
 import { ToastContainer } from "react-toastify"
 import { navItemLength } from "../ecommerce.config"
 import CartLink from "../components/CartLink"
+import BurgerMenu from "../components/BurgerMenu"
 
 export default function Layout({ children, categories }) {
   if (categories.length > navItemLength) {
@@ -11,8 +12,9 @@ export default function Layout({ children, categories }) {
   }
   return (
     <div>
+      {/* <BurgerMenu /> */}
       {/* HEADER */}
-      <div className="sticky mobile:relative top-0 z-99 flex justify-between items-center bg-white mobile:px-12 p-4 w-auto sm:max-w-none">
+      <div className="sticky mobile:relative top-0 z-98 flex justify-between items-center bg-white mobile:px-12 p-4 w-auto sm:max-w-none">
         <Link href="/">
           <a aria-label="Home">
             <img src="/logo.png" alt="logo" width="125" height="28" className='cursor-pointer' />
@@ -20,7 +22,7 @@ export default function Layout({ children, categories }) {
         </Link>
         <CartLink />
       </div>
-      <nav className='relative mobile:sticky top-0 z-99 bg-white'>
+      <nav className='relative mobile:sticky top-0 z-98 bg-white'>
         <div className="flex justify-center">
           <div
             className="
