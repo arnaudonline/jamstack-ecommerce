@@ -4,6 +4,14 @@ let inventory = [
   // HOMME
   {
     categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme1.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+    {
+      categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme2.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+      {
+        categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme3.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+        {
+          categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme4.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+          {
+            categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme5.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
   //FEMME
     {
     categories: ['femme'], name: 'Carmel Brown Sofa', price: '42.39', image: '/products/femme1.jpeg', description: 'Stay a while. The Timber charme chocolat sofa is set atop an oak trim and flaunts fluffy leather back and seat cushions. Over time, this brown leather sofa’s full-aniline upholstery will develop a worn-in vintage look. Snuggle up with your cutie (animal or human) and dive into a bowl of popcorn. This sofa is really hard to leave. Natural color variations, wrinkles and creases are part of the unique characteristics of this leather. It will develop a relaxed vintage look with regular use.' , brand: 'Jason Bourne' , currentInventory: 2 },
