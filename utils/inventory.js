@@ -3,21 +3,21 @@ import { v4 as uuid } from 'uuid'
 let inventory = [
   // HOMME
   {
-    categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme1.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+    categories: ['homme'], name: 'Homme 2.0', price: '24.90', image: '/products/homme1.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 0 },
     {
-      categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme2.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+      categories: ['homme'], name: 'lunette bg-style', price: '17.90', image: '/products/homme2.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 1 },
       {
-        categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme3.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+        categories: ['homme'], name: 'Homme en chemise', price: '24.90', image: '/products/homme3.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 2 },
         {
-          categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme4.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+          categories: ['homme'], name: 'Chemise homme popeline et veste gris foncé', price: '64.90', image: '/products/homme6.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 3 },
           {
-            categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme5.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+            categories: ['homme'], name: 'Chemise blanche cahouchou ', price: '4.90', image: '/products/homme5.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 4 },
             {
-              categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme6.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+              categories: ['homme'], name: 'Chemise bleu homme popeline ', price: '6.90', image: '/products/homme4.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 5 },
               {
-                categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme7.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+                categories: ['homme'], name: 'Chemise homme pop gris', price: '24.90', image: '/products/homme7.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 6 },
                 {
-                  categories: ['homme'], name: 'Timber Gray Sofa 2.0', price: '24.90', image: '/products/homme8.jpeg ', description: 'Jean pour homme ', brand: 'Jason Bourne', currentInventory: 4 },
+                  categories: ['homme'], name: 'Costume rouge et noir', price: '125.90', image: '/products/homme8.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 7 },
   
             //FEMMe
     {
@@ -62,7 +62,7 @@ let inventory = [
               {
                 categories: ['femme'], name: 'Thetis Gray Love Seat', price: '19.20', image: '/products/fille6.webp', description: 'You know your dad’s incredible vintage bomber jacket? The Nirvana dakota tan leather sofa is that jacket, but in couch form. With super-plush down-filled cushions, a corner-blocked wooden frame, and a leather patina that only gets better with age, the Nirvana will have you looking cool and feeling peaceful every time you take a seat. Looks pretty great with a sheepskin throw, if we may say so. With use, this leather will become softer and more wrinkled and the cushions will take on a lived-in look, like your favorite leather jacket.' , brand: 'Jason Bourne', currentInventory: 10},
                 {
-                  categories: ['fille'], name: 'Thetis Gray Love Seat', price: '19.20', image: '/products/fille7.webp', description: 'You know your dad’s incredible vintage bomber jacket? The Nirvana dakota tan leather sofa is that jacket, but in couch form. With super-plush down-filled cushions, a corner-blocked wooden frame, and a leather patina that only gets better with age, the Nirvana will have you looking cool and feeling peaceful every time you take a seat. Looks pretty great with a sheepskin throw, if we may say so. With use, this leather will become softer and more wrinkled and the cushions will take on a lived-in look, like your favorite leather jacket.' , brand: 'Jason Bourne', currentInventory: 10},
+                  categories: ['fille'], name: 'Thetis Gray Love Seat', price: '19.20 million', image: '/products/fille7.webp', description: 'You know your dad’s incredible vintage bomber jacket? The Nirvana dakota tan leather sofa is that jacket, but in couch form. With super-plush down-filled cushions, a corner-blocked wooden frame, and a leather patina that only gets better with age, the Nirvana will have you looking cool and feeling peaceful every time you take a seat. Looks pretty great with a sheepskin throw, if we may say so. With use, this leather will become softer and more wrinkled and the cushions will take on a lived-in look, like your favorite leather jacket.' , brand: 'Jason Bourne', currentInventory: 10},
     // { 
 ]
 
