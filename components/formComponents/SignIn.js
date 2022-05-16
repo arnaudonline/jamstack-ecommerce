@@ -10,7 +10,7 @@ class SignIn extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="my-4">S'inscrire</h3>
+        <h3 className="my-4">Se connecter</h3>
         <div className="flex flex-1 justify-center">
           <div className="w-full max-w-144">
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">

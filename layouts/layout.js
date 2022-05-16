@@ -89,11 +89,6 @@ export default function Layout({ children, categories }) {
             flex flex-1 mt-4
           "
           >
-            <Link href="/admin">
-              <a aria-label="Admin panel">
-              <p className="text-sm font-semibold">Utilisateur</p>
-              </a>
-            </Link>
           </div>
         </div>
       </footer>

@@ -24,7 +24,7 @@ class ConfirmSignUp extends React.Component {
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="authcode">
-                code d'identification
+                Code d'identification
                 </label>
                 <input
                 onChange={this.onChange} name="authcode"

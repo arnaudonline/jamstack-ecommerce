@@ -81,7 +81,7 @@ const Checkout = ({ context }) => {
 
     // Validate input
     if (!street || !city || !postal_code || !state) {
-      setErrorMessage("Please fill in the form!")
+      setErrorMessage("Merci de remplir le formulaire ci-dessous !")
       return
     }
 
@@ -232,18 +232,18 @@ const Checkout = ({ context }) => {
                 </div>
               </div>
               <div className="md:pt-20">
-                <div className="pl-4 flex flex-1 pt-2 md:pt-8 mt-2 sm:mt-0">
-                  <p className="text-sm pr-10 text-left">total partiel</p>
+                <div className="px-4 flex flex-1 justify-between pt-2 md:pt-8 mt-2 sm:mt-0">
+                  <p className="text-sm pr-10 text-left">Total Hors Livraison</p>
                   <p className="w-38 flex text-right justify-end">
                     {DENOMINATION + total}
                   </p>
                 </div>
-                <div className="pl-4 flex flex-1 my-2">
-                  <p className="text-sm pr-10">livraison</p>
+                <div className="px-4 flex flex-1 justify-between my-2">
+                  <p className="text-sm pr-10">Livraison</p>
                   <p className="w-38 flex justify-end">
                 GRATUITE</p>
                 </div>
-                <div className="md:ml-4 pl-2 flex flex-1 bg-gray-200 pr-4 pb-1 pt-2 mt-2">
+                <div className="md:ml-4 px-4 flex flex-1 justify-between bg-gray-200 pr-4 pb-1 pt-2 mt-2">
                   <p className="text-sm pr-10">Total</p>
                   <p className="font-semibold w-38 flex justify-end">
                     {DENOMINATION + (total + calculateShipping())}

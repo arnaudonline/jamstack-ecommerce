@@ -45,7 +45,7 @@ const Cart = ({ context }) => {
           c_large:w-c_large
         ">
           <div className="pt-10 pb-8">
-            <h1 className="text-5xl font-light">votre panier</h1>
+            <h1 className="text-5xl font-light">Votre panier</h1>
           </div>
 
           {
@@ -144,7 +144,7 @@ const Cart = ({ context }) => {
             <Link href="/checkout" className="flex flex-1 justify-end">
               <a aria-label="Check out">
                 <div className="cursor-pointer flex items-center">
-                  <p className="text-gray-600 text-sm mr-2">Procéder à la caisse</p>
+                  <p className="text-gray-600 text-sm mr-2">Procéder au paiement</p>
                   <FaLongArrowAltRight className="text-gray-600" />
                 </div>
               </a>
