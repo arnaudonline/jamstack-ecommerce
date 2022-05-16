@@ -45,7 +45,7 @@ class ViewInventory extends React.Component {
     const { inventory, currentItem, editingIndex } = this.state
     return (
       <div>
-        <h2 className="text-3xl">Inventory</h2>
+        <h2 className="text-3xl">Inventaire</h2>
         {
           inventory.map((item, index) => {
             const isEditing = editingIndex === index
@@ -112,7 +112,7 @@ class ViewInventory extends React.Component {
                   </div>
                   <div className="flex items-center m-0 ml-10 text-gray-900 text-s cursor-pointer">
                     <FaTimes onClick={() => this.deleteItem(index)} />
-                    <p role="button" onClick={() => this.editItem(item, index)} className="text-sm ml-10 m-0">Edit</p>
+                    <p role="button" onClick={() => this.editItem(item, index)} className="text-sm ml-10 m-0">Modifier</p>
                   </div>
                 </div>
               </div>

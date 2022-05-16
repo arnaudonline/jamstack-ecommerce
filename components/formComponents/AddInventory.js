@@ -46,7 +46,7 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="price">
-                  Item price
+                Prix ​​de l'article
                 </label>
                 <input
                 onChange={this.onChange}
@@ -54,7 +54,7 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="description">
-                  Item Description
+                Description de l'article
                 </label>
                 <input
                 onChange={this.onChange}
@@ -62,7 +62,7 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="item image">
-                  Item image
+                Image de l'article
                 </label>
                 <input
                   type="file"
@@ -71,7 +71,7 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="currentInventory">
-                  In stock
+                  En stock
                 </label>
                 <input
                 onChange={this.onChange}
@@ -79,7 +79,8 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="categories">
-                  Item categories
+                  
+                  Catégories d'articles
                 </label>
                 <input
                 onChange={this.onChange}
@@ -87,7 +88,7 @@ class AddInventory extends React.Component {
               </div>
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="brand">
-                  Item brand
+                Marque de l'article
                 </label>
                 <input
                 onChange={this.onChange}
@@ -95,10 +96,10 @@ class AddInventory extends React.Component {
               </div>
               <div className="flex items-center justify-between mt-4">
                 <button onClick={this.addItem} className="bg-primary hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                  Add Item
+                Ajouter un item
                 </button>
                 <a onClick={this.clearForm} className="inline-block align-baseline font-bold text-sm" href="#">
-                  Clear Form
+                Forme claire
                 </a>
               </div>
             </form>

@@ -10,13 +10,13 @@ class ConfirmSignUp extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="py-4">Sign Up</h3>
+        <h3 className="py-4">S'inscrire</h3>
         <div className="flex flex-1 justify-center">
           <div className="w-full max-w-144">
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                  Username
+                Nom d'utilisateur
                 </label>
                 <input
                 onChange={this.onChange} name="username"
@@ -24,7 +24,7 @@ class ConfirmSignUp extends React.Component {
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="authcode">
-                  Authentication Code
+                code d'identification
                 </label>
                 <input
                 onChange={this.onChange} name="authcode"
@@ -32,10 +32,10 @@ class ConfirmSignUp extends React.Component {
               </div>
               <div className="flex items-center justify-between">
                 <button onClick={() => this.props.confirmSignUp(this.state)} className="bg-primary hover:bg-primary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                  Confirm Sign Up
+                Confirmer l'inscription
                 </button>
                 <a className="inline-block align-baseline font-bold text-sm" href="#">
-                  Forgot Password?
+                Mot de passe oublié?
                 </a>
               </div>
             </form>

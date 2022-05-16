@@ -10,13 +10,13 @@ class SignIn extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="my-4">Sign In</h3>
+        <h3 className="my-4">S'inscrire</h3>
         <div className="flex flex-1 justify-center">
           <div className="w-full max-w-144">
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
               <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                  Username
+                Nom d'utilisateur
                 </label>
                 <input
                   onChange={this.onChange} name="username"
@@ -24,7 +24,7 @@ class SignIn extends React.Component {
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-                  Password
+                  Mot de passe
                 </label>
                 <input
                   onChange={this.onChange} name="password"
@@ -32,10 +32,10 @@ class SignIn extends React.Component {
               </div>
               <div className="flex items-center justify-between">
                 <button onClick={() => this.props.signIn(this.state)} className="bg-primary hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                  Sign In
+                S'identifier
                 </button>
                 <a className="inline-block align-baseline font-bold text-sm" href="#">
-                  Forgot Password?
+                  Mot de passe oublier ?
                 </a>
               </div>
             </form>

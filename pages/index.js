@@ -26,13 +26,11 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
               category="SOFAS"
             />
             <Center
-              price="200"
+              price="-20%"
               title={inventory[2].name}
               link={`/product/${slugify(inventory[2].name)}`}
             />
-            <Footer
-              designer="Jason Bourne"
-            />
+
           </div>
           <div className="flex flex-1 justify-center items-center relative">
               <Showcase
@@ -62,8 +60,10 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
           link={`/category/${slugify(categories[1].name)}`}
         />
       </div>
+
+      {/*  */}
       <div className="pt-10 pb-6 flex flex-col items-center">
-        <h2 className="text-4xl mb-3">Trending Now</h2>
+        <h2 className="text-4xl mb-3">Tendance</h2>
         <p className="text-gray-600 text-sm">Find the perfect piece or accessory to finish off your favorite room in the house.</p>
       </div>
       <div className="my-8 flex flex-col lg:flex-row justify-between">

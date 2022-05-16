@@ -37,21 +37,21 @@ const Cart = ({ context }) => {
       <CartLink />
       <div className="flex flex-col items-center pb-10">
         <Head>
-          <title>Jamstack ECommerce - Cart</title>
-          <meta name="description" content={`Jamstack ECommerce - Shopping cart`} />
-          <meta property="og:title" content="Jamstack ECommerce - Cart" key="title" />
+          <title>Ok-Ok ECommerce - Carte</title>
+          <meta name="description" content={`Ok-Ok ECommerce - Shopping cart`} />
+          <meta property="og:title" content="Ok-Ok ECommerce - Cart" key="title" />
         </Head>
         <div className="
           flex flex-col w-full
           c_large:w-c_large
         ">
           <div className="pt-10 pb-8">
-            <h1 className="text-5xl font-light">Your Cart</h1>
+            <h1 className="text-5xl font-light">votre panier</h1>
           </div>
 
           {
             cartEmpty ? (
-              <h3>No items in cart.</h3>
+              <h3>Aucun article dans le panier.</h3>
             ) : (
               <div className="flex flex-col">
                 <div>
@@ -145,7 +145,7 @@ const Cart = ({ context }) => {
             <Link href="/checkout" className="flex flex-1 justify-end">
               <a aria-label="Check out">
                 <div className="cursor-pointer flex items-center">
-                  <p className="text-gray-600 text-sm mr-2">Proceed to check out</p>
+                  <p className="text-gray-600 text-sm mr-2">Procéder à la caisse</p>
                   <FaLongArrowAltRight className="text-gray-600" />
                 </div>
               </a>
