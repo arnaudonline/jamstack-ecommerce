@@ -22,7 +22,7 @@ export default function Layout({ children, categories }) {
         </Link>
         <CartLink />
       </div>
-      <nav className='relative mobile:sticky top-0 z-98 bg-white'>
+      <nav className='relative mobile:sticky top-0 z-98 mobile:z-0 bg-white'>
         <div className="flex justify-center">
           <div
             className="

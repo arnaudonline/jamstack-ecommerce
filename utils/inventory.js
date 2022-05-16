@@ -9,7 +9,7 @@ let inventory = [
       {
         categories: ['homme'], name: 'Homme en chemise', price: '24.90', image: '/products/homme3.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 2 },
         {
-          categories: ['homme'], name: 'Chemise homme popeline et veste gris foncé', price: '64.90', image: '/products/homme6.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 3 },
+          categories: ['homme'], name: 'Veste gris foncé', price: '64.90', image: '/products/homme6.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 3 },
           {
             categories: ['homme'], name: 'Chemise blanche cahouchou ', price: '4.90', image: '/products/homme5.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 4 },
             {

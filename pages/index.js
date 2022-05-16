@@ -33,9 +33,6 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
               <Showcase
                 imageSrc={inventory[3].image}
               />
-              <div className="absolute
-              w-48 h-48 sm:w-72 sm:h-72 xl:w-88 xl:h-88
-              bg-white z-0 rounded-full" />
           </div>
         </div>
       </div>
