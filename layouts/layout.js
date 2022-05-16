@@ -37,7 +37,7 @@ export default function Layout({ children, categories }) {
                     mb-4 text-left text-smaller mr-4
                   "
                   >
-                    Home
+                    Acceuil
                   </p>
                 </a>
               </Link>
@@ -63,7 +63,7 @@ export default function Layout({ children, categories }) {
                     mb-4 text-left text-smaller mr-4 
                   "
                   >
-                    All
+                    Toutes les catégories
                   </p>
                 </a>
               </Link>
