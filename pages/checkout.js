@@ -152,7 +152,7 @@ const Checkout = ({ context }) => {
         </div>
 
         {cartEmpty ? (
-          <h3>No items in cart.</h3>
+          <h3>Aucun article dans le panier</h3>
         ) : (
           <div className="flex flex-col">
             <div className="">
