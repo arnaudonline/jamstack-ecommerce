@@ -3,7 +3,7 @@ import { v4 as uuid } from 'uuid'
 let inventory = [
   // HOMME
   {
-    categories: ['homme'], name: 'Homme 2.0', price: '24.90', image: '/products/homme1.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 0 },
+    categories: ['homme'], name: 'veste de dinde', price: '24.90', image: '/products/homme1.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 0 },
     {
       categories: ['homme'], name: 'lunette bg-style', price: '17.90', image: '/products/homme2.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 1 },
       {
