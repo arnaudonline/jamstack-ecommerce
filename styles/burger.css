@@ -7,7 +7,7 @@ button.burger_button {
   border: none;
   outline: 0;
   cursor: pointer;
-  z-index: 99;
+  z-index: 100;
 }
 button.burger_button span {
   position: absolute;

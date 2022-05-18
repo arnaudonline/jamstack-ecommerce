@@ -3,11 +3,11 @@ import { v4 as uuid } from 'uuid'
 let inventory = [
   // HOMME
   {
-    categories: ['homme'], name: 'veste en lin', price: '24.90', image: '/products/homme1.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 0 },
+    categories: ['homme'], name: 'Veste en lin', price: '24.90', image: '/products/homme1.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 0 },
     {
-      categories: ['homme'], name: 'lunette bg-style', price: '17.90', image: '/products/homme2.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 1 },
+      categories: ['homme'], name: 'Lunette BG', price: '17.90', image: '/products/homme2.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 1 },
       {
-        categories: ['homme'], name: 'Homme en chemise', price: '24.90', image: '/products/homme3.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 2 },
+        categories: ['homme'], name: 'Chemise pour Homme', price: '24.90', image: '/products/homme3.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 2 },
         {
           categories: ['homme'], name: 'Veste gris foncé', price: '64.90', image: '/products/homme6.jpeg ', description: "Sol's 02922 - Chemise Homme Popeline Manches Longues Baltimore Fit", brand: 'Jason Bourne', currentInventory: 3 },
           {
